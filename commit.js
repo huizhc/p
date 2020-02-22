@@ -45,7 +45,7 @@
             if (sltarr.length !== 1) {
                 _each(sltarr, function (index, slt) {
                     var j = result.length, i = 0;
-                    var p = new P.fn.init(slt);
+                    var p = new P.fn.init(slt, context);
                     while (result[j ++] = p[i ++]) {}
                     result.length = j - 1;
                     (!result.selector instanceof Array) && (result.selector = [result.selector])
